@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+<title>
+  JavaScript
+</title>
+
+<head>
+  <body>
+    <button type="button"
+    onclick = "document.getElementById('demo').innerHTML = Date()"> first
+    </button>
+    <p id="demo"> you fool</p>
+    <p id="hello"> shut up</p>
+
+    <button type="button"
+    onclick = "document.getElementById('hello').innerHTML = 'Hello JS'">
+    second
+    </button>
+    <button type="button"
+    onclick = "document.getElementById('hello').innerHTML = 'bye JS'">
+    third
+    </button>
+    <button type="button"
+    onclick = "myFun()">
+    Fourth
+    </button>
+    <script>
+      function myFun(){
+        document.getElementById('hello').innerHTML = "SHUT UP";
+        window.alert('get lost');
+      }
+      document.write(5+6);
+
+    </script>
+  </body>
+</head>
+</html>
